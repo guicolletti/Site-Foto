@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="camera_icon.png">
+    <title>Site para Selfie</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tire sua Selfie</h1>
+        <video id="camera" autoplay></video>
+        <button id="capturar">Aperte Aqui (Colorido)</button>
+        <button id="capturar-pb">Aperte Aqui (Preto e Branco)</button>
+        <button class="btn_desativar" id="ativar">Ligar Câmera</button>
+        <button class="btn_desativar" id="desativar">Desativar Câmera</button>
+        <button class="btn_apagar" id="apagar">Apagar Fotos</button>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;" id="fotos-capturadas"></div>
+</body>
+<script src="script.js"></script>
+</html>
