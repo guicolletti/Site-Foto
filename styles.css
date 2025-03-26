@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, SansSerif;
+    text-align: center;
+    background-color: coral;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    transform: scaleX(-1);
+}
+
+canvas {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid black;
+    transform: scaleX(-1);
+}
+
+button {
+    margin-top: 10px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: forestgreen;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    margin-top: 10px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #1a6e1a;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    transform: scale(95%);
+}
